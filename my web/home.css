@@ -1,0 +1,113 @@
+body{
+    background-image: url("cover2.jpeg");
+  }
+  
+  .column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  align-items: center;
+  margin-top: 0%;
+  margin-left: 35%;
+  border-radius: 100%;
+  }
+  
+  .card {
+  box-shadow: 0 4px 8px 0 whitesmoke;
+  margin: 8px;
+  }
+  .container {
+  padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+  .title {
+  color: grey;
+  }
+  
+  .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  }
+  
+  @media screen and (max-width: 650px) {
+  .column {
+  width: 100%;
+  display: block;
+  }
+  /*Footer Section*/
+footer {
+    width: 100%;
+  }
+.footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+        color:white;
+    line-height: 28px;
+}
+
+/*Social Media*/
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-image: url("cover2.jpeg");
+}
+
+#lab_social_icon_footer a {
+  color: white;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color:plum;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: pink;
+}
+
+#lab_social_icon_footer #social-inst:hover {
+  color: rebeccapurple;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: blueviolet;
+}
+
+/*Copyright*/
+.copyright-text {
+  color: white;
+}
+
+}
